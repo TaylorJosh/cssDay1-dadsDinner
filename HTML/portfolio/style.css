@@ -1,0 +1,128 @@
+.left-top{font-family: 'Monoton', cursive;
+font-size: 350%;}
+.bottom-left{font-family: 'Monoton', cursive;
+  font-size: 156%;}
+
+.nav-items{
+    font-size: 150%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    font-family: 'Patrick Hand', cursive; font-family: 'Rajdhani', sans-serif;}
+
+    .email{
+      font-size: 125%;
+   
+      padding: 0%;
+      margin: 0%;
+      display: flex;
+      flex-direction: column;
+      
+      font-family: 'Patrick Hand', cursive; font-family: 'Rajdhani', sans-serif;}
+
+a:link.nav, a.nav:visited {
+    background-color: #b69b7d;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+  }
+  
+  a:hover.nav, a:active.nav {
+    background-color: #222c3c;
+      }
+
+
+      a:link.jct, a.jct:visited {
+        background-color: #222c3c;
+        color: white;
+        /* padding: 14px 25px; */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 25px;
+      }
+      
+      a:hover.jct, a:active.jct {
+        background-color: #b69b7d;
+          }
+
+         
+ 
+  .typewriter h1 {
+    color: rgb(255, 255, 255);
+        font-family: 'Patrick Hand', cursive; font-family: 'Rajdhani', sans-serif;;
+    overflow: hidden;
+    border-right: .15em solid #93634a; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#222c3c }
+  }
+
+  .body{
+    font-size: 150%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction:row;
+        }
+    .photo-details{
+        font-size: 100%;
+        color: #222c3c
+        font-family: 'Patrick Hand', cursive; font-family: 'Rajdhani', sans-serif;
+        }
+
+
+        .blurb{font-size: 170%;
+            padding: %;
+            margin: 08%;
+            display: flex;
+            flex-direction: row;
+            font-family:'Patrick Hand', cursive; font-family: 'Rajdhani', sans-serif; ;
+            }
+            .card {font-size: 90%;
+            background-color: #3b6bb99a;}
+            
+            
+            a:link.icons, a.icons:visited {
+              background-color: #222c3c;
+              color: white;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              border-radius: 25px;
+            }
+            a:link.emailnav, a.nav:visited {
+              background-color: ;
+              color: white;
+              padding: 14px 25px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              border-radius: 25px;
+            }
+            
+            a:hover.emailnav, a:active.emailnav {
+              background-color: #222c3c;
+                }            
+            
+        
